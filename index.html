@@ -39,6 +39,8 @@ h1 span{color:var(--gold)}
 .how{width:100%;background:var(--terra2);border:2px solid #4a3a2c;padding:12px 14px;text-align:left;font-size:.88rem;color:var(--sec);line-height:1.5}
 .how b{color:var(--creme)}
 .how p{margin:4px 0}
+.need{display:flex;flex-direction:column;gap:10px;border-color:var(--gold)}
+.need .btn.sec{min-height:42px}
 [hidden]{display:none!important}
 </style>
 </head>
@@ -47,6 +49,7 @@ h1 span{color:var(--gold)}
 <img class="logo" src="icon-512.png" alt="">
 <h1>Salto <span>360</span></h1>
 <p class="tag">Receitas, despesas e resultado de cada mês do Salto das Nuvens.</p>
+<div class="how need"><p><b>Antes de abrir:</b> o Salto 360 funciona dentro do Claude. Entre no Claude com a conta que tem acesso ao app. Não precisa instalar nada, ele abre no próprio navegador.</p><a class="btn sec" href="https://claude.ai/login" target="_blank" rel="noopener">Entrar no Claude</a></div>
 <a class="btn" href="https://claude.ai/artifact/7HpCK9sSfzPmE7nh3amiHP">Abrir o Salto 360</a>
 <button class="btn sec" id="inst" type="button" hidden>Instalar o Salto 360 neste aparelho</button>
 <div class="how" id="how"></div>
